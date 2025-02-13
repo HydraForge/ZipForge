@@ -1,0 +1,14 @@
+{
+  "name": "zipforge",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "make:laravel": "cd frameworks/laravel-11 && zip -r ../../archives/laravel-11.zip ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
