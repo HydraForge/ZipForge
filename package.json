@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "make:laravel": "cd frameworks/laravel-11 && zip -r ../../archives/laravel-11.zip ."
+    "make:laravel": "cd frameworks/laravel-11 && zip -r ../../archives/laravel-11.zip .",
+    "make:symfony": "cd frameworks/symfony-72 && zip -r ../../archives/symfony-72.zip ."
   },
   "devDependencies": {
     "@types/bun": "latest"
